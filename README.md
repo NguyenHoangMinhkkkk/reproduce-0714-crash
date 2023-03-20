@@ -1,5 +1,37 @@
-Android emulator: 
+*Android emulator: 
  - Pixel 2 API 28 Android 9.0 Google APIs | arm64-v8a
+
+*System:
+    OS: macOS 13.0.1
+    CPU: (8) arm64 Apple M1
+    Memory: 64.81 MB / 16.00 GB
+    Shell: 5.8.1 - /bin/zsh
+  Binaries:
+    Node: 16.18.0 - /opt/homebrew/opt/node@16/bin/node
+    Yarn: 1.22.19 - /opt/homebrew/bin/yarn
+    npm: 8.19.2 - /opt/homebrew/opt/node@16/bin/npm
+    Watchman: 2022.10.31.00 - /opt/homebrew/bin/watchman
+  Managers:
+    CocoaPods: 1.11.3 - /opt/homebrew/bin/pod
+  SDKs:
+    iOS SDK:
+      Platforms: DriverKit 22.2, iOS 16.2, macOS 13.1, tvOS 16.1, watchOS 9.1
+    Android SDK: Not Found
+  IDEs:
+    Android Studio: 2021.3 AI-213.7172.25.2113.9014738
+    Xcode: 14.2/14C18 - /usr/bin/xcodebuild
+  Languages:
+    Java: 11.0.16.1 - /Library/Java/JavaVirtualMachines/zulu-11.jdk/Contents/Home/bin/javac
+  npmPackages:
+    @react-native-community/cli: Not Found
+    react: 18.2.0 => 18.2.0 
+    react-native: 0.71.4 => 0.71.4 
+    react-native-macos: Not Found
+  npmGlobalPackages:
+    *react-native*: Not Found
+
+// ======================================================================
+
 Step reproduce:
 
 - Init project: npx react-native init Test0714
