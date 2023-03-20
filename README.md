@@ -1,3 +1,5 @@
+Android emulator: 
+ - Pixel 2 API 28 Android 9.0 Google APIs | arm64-v8a
 Step reproduce:
 
 - Init project: npx react-native init Test0714
